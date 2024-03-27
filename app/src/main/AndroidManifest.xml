@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ImageClassification"
         tools:targetApi="31">
         <activity
+            android:name=".ResultsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".SavedImagesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,6 +28,5 @@
             </intent-filter>
         </activity>
     </application>
-   
 
 </manifest>

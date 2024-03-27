@@ -28,7 +28,7 @@
         android:text="Select"/>
 
     <Button
-        android:id="@+id/btn_predict"
+        android:id="@+id/btnPredict"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Predict"/>
@@ -40,5 +40,22 @@
         android:layout_height="wrap_content"
         android:text="Prediction!"
         android:textSize="22dp" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Result"
+        android:layout_below="@id/btnPredict"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnViewSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Saved Results"
+        android:layout_below="@id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>
